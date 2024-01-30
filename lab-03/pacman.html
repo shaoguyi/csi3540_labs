@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1D PacMan Game</title>
+    <style>
+        #gameBoard {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .cell {
+            width: 40px;
+            height: 40px;
+            border: 2px solid black; 
+            text-align: center;
+            margin: 5px;
+        }
+    </style>
+    <script src="pacman.js"></script>
+</head>
+<body>
+    <h1>1D PacMan Game</h1>
+    <div id="gameBoard"></div>
+
+    <button onclick="moveLeft()">Move Left</button>
+    <button onclick="moveRight()">Move Right</button>
+
+    <script>
+        window.onload = () => {
+            createGame(10);
+        };
+    </script>
+</body>
+</html>
