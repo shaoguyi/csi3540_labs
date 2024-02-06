@@ -32,19 +32,21 @@ function renderBoard() {
 }
 
 function moveLeft() {
-    if (pacmanPosition > 0) {
-        gameBoard[pacmanPosition] = '.';
-        pacmanPosition--;
-        gameBoard[pacmanPosition] = 'C';
-        renderBoard();
+    gameBoard[pacmanPosition] = '.';
+    pacmanPosition--;
+    if (pacmanPosition < 0) {
+        pacmanPosition = gameBoard.length - 1;
     }
+    gameBoard[pacmanPosition] = 'C';
+    renderBoard();
 }
 
 function moveRight() {
-    if (pacmanPosition < gameBoard.length - 1) {
-        gameBoard[pacmanPosition] = '.';
-        pacmanPosition++;
-        gameBoard[pacmanPosition] = 'C';
-        renderBoard();
+    gameBoard[pacmanPosition] = '.';
+    pacmanPosition++;
+    if (pacmanPosition >= gameBoard.length) {
+        pacmanPosition = 0;
     }
+    gameBoard[pacmanPosition] = 'C';
+    renderBoard();
 }
