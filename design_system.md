@@ -1,6 +1,6 @@
 # Yatzy Game Design System
 
-`![yatzy web](./yatzy_web.png)`
+![yatzy web](./yatzy_web.png)
 ## Overview
 Yatzy is a dice game where the objective is to score points by rolling five dice to make certain combinations. The game consists of 13 rounds. After each round, the player chooses which scoring category is to be used for that round. Once a category has been used in the game, it cannot be used again.
 
