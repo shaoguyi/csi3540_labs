@@ -1,13 +1,17 @@
 # Yatzy Game Design System
 
+`![yatzy web](./yatzy_web.png)`
 ## Overview
 Yatzy is a dice game where the objective is to score points by rolling five dice to make certain combinations. The game consists of 13 rounds. After each round, the player chooses which scoring category is to be used for that round. Once a category has been used in the game, it cannot be used again.
 
 ## Game Components
 
+### Title :Yatzy game
+- title color : `#FFA500`
+
 ### Dice
 - Five six-sided dice are used.
-- Dice colors: `#5E9CF8` (Blue)
+- Dice colors: `#5E9CF8`
 
 ### Scorecard
 - The scorecard is used to keep track of each player's scores.
@@ -16,26 +20,26 @@ Yatzy is a dice game where the objective is to score points by rolling five dice
 ## User Interface
 
 ### Play Area
-- Background color: `#0E1332` (Dark Navy)
-- Text color: `#F6F8FC` (Light Gray)
-- Button to roll dice: `#59ECF8` (Cyan)
+- Background color: `#c0c0c0` 
+- Text color: `#0000FF` 
+- Button to roll dice: `#59ECF8` 
 
 ### Scorecard UI
-- Background color: `#F6F8FC` (Light Gray)
-- Category text color: `#0E1332` (Dark Navy)
-- Score input field: `#FFFFFF` (White)
+- Background color: `#0000FF` 
+- Category text color: `#0E1332` 
+- Score input field: `#FFFFFF`
 
 ### Buttons
-- "Roll Dice" button: `#5E9CF8` (Blue) with text `#FFFFFF` (White)
-- "Score Category" selection buttons: `#59ECF8` (Cyan) with text `#FFFFFF` (White)
+- "Roll Dice" button: `#5E9CF8` (Blue) with text `#FFFFFF`
+- "Score Category" selection buttons: `#59ECF8`  with text `#FFFFFF` 
 
 ## Colours
 
 | HEX Code  | Display                                                                 | Description       |
 |-----------|-------------------------------------------------------------------------|-------------------|
 | `#59ECF8` | ![#59ECF8](https://via.placeholder.com/15/59ECF8/59ECF8.png)             | Dice & Buttons    |
-| `#0E1332` | ![#0E1332](https://via.placeholder.com/15/0E1332/0E1332.png)             | Background & Text |
-| `#F6F8FC` | ![#F6F8FC](https://via.placeholder.com/15/F6F8FC/F6F8FC.png)             | Scorecard & Text  |
+| `#c0c0c0` | ![#c0c0c0](https://via.placeholder.com/15/0E1332/0E1332.png)             | Background & Text |
+| `#0000FF` | ![#0000FF](https://via.placeholder.com/15/F6F8FC/F6F8FC.png)             | Scorecard & Text  |
 
 ## Gameplay Instructions
 
@@ -67,3 +71,4 @@ Yatzy: 50
 ## Game End
 
 The game ends once all players have filled all their categories on the scorecard. The player with the highest total score wins the game.
+
