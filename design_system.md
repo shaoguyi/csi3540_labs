@@ -38,8 +38,8 @@ Yatzy is a dice game where the objective is to score points by rolling five dice
 | HEX Code  | Display                                                                 | Description       |
 |-----------|-------------------------------------------------------------------------|-------------------|
 | `#59ECF8` | ![#59ECF8](https://via.placeholder.com/15/59ECF8/59ECF8.png)             | Dice & Buttons    |
-| `#c0c0c0` | ![#c0c0c0](https://via.placeholder.com/15/0E1332/0E1332.png)             | Background & Text |
-| `#0000FF` | ![#0000FF](https://via.placeholder.com/15/F6F8FC/F6F8FC.png)             | Scorecard & Text  |
+| `#c0c0c0` | ![#c0c0c0](https://via.placeholder.com/15/c0c0c0/c0c0c0.png)             | Background & Text |
+| `#0000FF` | ![#0000FF](https://via.placeholder.com/15/0000FF/0000FF.png)             | Scorecard & Text  |
 
 ## Gameplay Instructions
 
@@ -67,8 +67,4 @@ Large Straight: 20
 Full House: 18
 Chance: 23
 Yatzy: 50
-
-## Game End
-
-The game ends once all players have filled all their categories on the scorecard. The player with the highest total score wins the game.
 
