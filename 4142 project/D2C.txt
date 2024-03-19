@@ -1,0 +1,17 @@
+问题1. 缺失值处理：
+在 handle_missing_values 函数中，处理了缺失值。对于数值列，采用均值或中位数填充；对于分类列，采用众数或常数填充，以此保持数据的完整性，并且不会影响整体数据的分布特性。
+
+问题2. 异常值处理：
+使用四分位数和 IQR 方法在 handle_outliers 函数中处理异常值.以此帮助识别和剔除数据中的异常值，从而减少异常值对数据分析和建模的影响，提高模型的准确性和可靠性。
+
+问题3. 数据清洗和标准化：
+在 standardize_text_data 函数中，对文本数据进行了清洗和标准化，包括转换为小写并去除首尾空格来保持数据的一致性
+
+Issue 1. missing_values_handling:
+Missing values are handled in the handle_missing_values function. For numeric columns, the mean or median is populated; for categorical columns, the plural or constant is populated to maintain the integrity of the data and not affect the overall distributional characteristics of the data.
+
+Issue 2: Handling of outliers:
+Use quartiles and IQR methods to handle outliers in the handle_outliers function. This helps to identify and remove outliers in the data, thus reducing the impact of outliers on data analysis and modeling, and improving the accuracy and reliability of the model.
+
+Issue 3: Data cleaning and standardization:
+In the standardize_text_data function, the text data is cleaned and standardized, including conversion to lowercase and removal of the first and last spaces to maintain data consistency
