@@ -1,0 +1,11 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    background:url(./image3.jpg);
+  }
+  canvas {
+    background-color: #fff;
+    display: block;
+    margin: auto;
+  }
+  
